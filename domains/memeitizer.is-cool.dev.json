@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Website for my school projects",
+  "description": "Website for my school projects.",
 
   "domain": "is-cool.dev",
   "subdomain": "memeitizer",
