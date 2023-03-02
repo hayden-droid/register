@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Website for my school projects",
+
+  "domain": "is-cool.dev",
+  "subdomain": "memeitizer",
+
+  "owner": {
+    "repo": "https://github.com/hayden-droid/register",
+    "email": "hayden.contact.sms@icloud.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "memeitizer.is-cool.dev",
+    "MX": ["mx1.memeitizer.is-cool.dev", "mx2.memeitizer.is-cool.dev"],
+    "NS": ["ns1.memeitizer.is-cool.dev", "ns2.memeitizer.is-cool.dev"],
+    "TXT": ["memeitizer_verification=1234567890"]
+  },
+
+  "proxy": false
+}
